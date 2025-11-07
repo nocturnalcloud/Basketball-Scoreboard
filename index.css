@@ -1,8 +1,88 @@
 body {
     margin: 0;
+    
+}
+
+@font-face {
+  font-family: 'timer';
+  src: url('CursedTimerUlil.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .container {
+    width: 500px;
+    height: 250px;
+    background-color: #1B244A;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.home-side {
+    //background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    padding: 0;
+    margin:  0px 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.number {
+    width: 100px;
+    height: 50px;
+    font-family: "timer", Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: red;
+}
+
+.location{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0 0 7px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.points {
+    height: 35px;
+    width: 35px;
+    color: #9AABD8;
+    text-shadow: 0 0 1px #9AABD8;
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    font-weight: 100;
+    border-radius: 7px;
+    
+    //background-color: #1B244A;
+    //color: white;
+    //border: 1px solid white;
+}
+
+#button-opt {
+    width: 120px;
+    height: 80;
+    //background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+#new-game {
+    font-size: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8
 }
