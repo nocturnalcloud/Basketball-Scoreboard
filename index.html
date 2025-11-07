@@ -7,24 +7,24 @@
             <div class="home-side">
                 <h3 class="location">HOME</h3>
                 <div class="score">
-                    <h1 class="number">10</h1>
+                    <h1 id="home-el" class="number">0</h1>
                 </div>
                 <div id="button-opt">
-                    <button class="points">1+</button>
-                    <button class="points">2+</button>
-                    <button class="points">3+</button>
+                    <button onclick="homeAddOne()" class="points">1+</button>
+                    <button onclick="homeAddTwo()" class="points">2+</button>
+                    <button onclick="homeAddThree()" class="points">3+</button>
                 </div>
             </div>
-            <button id="new-game">New Game</button>
+            <button onclick="newGame()" id="new-game">New Game</button>
              <div class="home-side">
                 <h3 class="location">AWAY</h3>
                 <div class="score">
-                    <h1 class="number">10</h1>
+                    <h1 id="away-el" class="number">0</h1>
                 </div>
                 <div id="button-opt">
-                    <button class="points">1+</button>
-                    <button class="points">2+</button>
-                    <button class="points">3+</button>
+                    <button onclick="awayAddOne()" class="points">1+</button>
+                    <button onclick="awayAddTwo()"class="points">2+</button>
+                    <button onclick="awayAddThree()"class="points">3+</button>
                 </div>
             </div>
                 
