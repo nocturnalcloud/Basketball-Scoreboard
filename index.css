@@ -70,6 +70,10 @@ body {
     //border: 1px solid white;
 }
 
+.points:hover {
+    color: red;
+}
+
 #button-opt {
     width: 120px;
     height: 80;
